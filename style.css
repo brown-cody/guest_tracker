@@ -1,0 +1,257 @@
+header {
+    background:#4286f4;
+    overflow:auto;
+}
+
+.logo {
+    float:left;
+    padding:.2em .2em 0 .5em;
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
+    float:left;
+    color:white;
+    padding-left:1em;
+    font-size:1.6em;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.error {
+    color:red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.headerContain {
+    max-width: 960px;
+    overflow:auto;
+    margin:auto;
+}
+
+.mainButton {
+    display:block;
+    margin:auto;
+    margin-top:1em;
+    text-decoration: none;
+    background:#4286f4;
+    width:10em;
+    padding:1em;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+.mainButton:hover {
+    background:gray;
+}
+
+.inline {
+    margin:0 .5em;
+}
+
+.alignLeft {
+    text-align:left;
+}
+
+main {
+    clear:both;
+    margin-top:3em;
+}
+
+.mainForm {
+    width:14em;
+    margin:auto;
+}
+
+.bigMainForm {
+    width:26em;
+    margin:auto;
+}
+
+ol {
+    width:19em;
+    margin:auto;
+}
+
+label {
+    display:inline-block;
+    width:6em;
+    text-align: right;
+    margin-right: .5em;
+    padding-top: 1em;
+}
+
+.doubleWide {
+    width:16em;
+    text-align: left;
+}
+
+.name {
+    width:26em;
+    font-weight: bold;
+    float:none;
+    text-align: center;
+    
+}
+
+.narrowLabel {
+    width:3em;
+}
+
+.multiSelectLabel {
+    position:relative;
+    top:-6em;
+}
+
+.yearInput {
+    width:4em;
+}
+
+input[type=date] {
+    width:9em;
+}
+
+.smallPadding {
+    padding-top: .25em;
+}
+
+.code {
+    width:3em;
+}
+
+.zipCode {
+    width:6em;
+}
+
+.textBox {
+    width:6em;
+}
+
+.selectBox {
+    width:6.2em;
+    height:1.5em;
+}
+
+.bigSelectBox {
+    width:15em;
+    height:1.5em;
+}
+
+.hide {
+    display:none;
+}
+
+table {
+    margin:auto;
+    margin-top: 2em;
+    border-collapse: collapse;
+    font-size:.75em;
+}
+
+caption {
+    font-weight: bold;
+}
+
+th {
+    height:2em;
+}
+
+tr:nth-child(odd) {
+    background:lightgray;
+}
+
+td {
+    width:6em;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.buttonCell {
+    width:auto;
+}
+
+button {
+    background:#4286f4;
+    color:white;
+    padding:.5em 1em;
+    border:none;
+}
+
+.delete {
+    background:#d10000;
+}
+
+button:hover {
+    background:gray;
+}
+
+.smallText {
+    font-size: .75em;
+}
+
+.confirmButton {
+    margin:1em;
+    width:6em;
+    padding:.5em;
+}
+
+.buttonGroup {
+    display:flex;
+    justify-content: center;
+}
+
+hr {
+    height:2px;
+    background:#4286f4;
+}
+
+footer {
+    clear:both;
+    margin-top:2em;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:360px)   {
+
+    .logo {
+        padding:.2em 0 .2em .5em;
+        height: 80px;
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    table {
+        font-size:1em;
+    }
+    
+    .confirmButton {
+        padding:1em;
+    }
+}
