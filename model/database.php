@@ -1,7 +1,7 @@
 <?php
     $dsn = 'mysql:host=localhost;dbname=guest_tracker';
-    $username = 'mgs_user';
-    $password = 'pa55word';
+    $username = 'guest_tracker_user';
+    $password = 'aHYn5aj6wHrC06mK';
 
     try {
         $db = new PDO($dsn, $username, $password);
