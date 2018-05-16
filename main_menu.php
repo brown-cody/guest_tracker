@@ -29,7 +29,7 @@
     
     
     
-    <h2>For Class Purposes:</h2>
+    <h2>For Demonstration Purposes:</h2>
     <?php if (isset($message)) {echo '<p class="message">'.$message.'</p>';} ?>
     
     <form action="index.php" method="post">
